@@ -15,6 +15,7 @@ export const User = () => {
   const close = () => {
     setProfileOpen(null)
   }
+  console.log('for test')
 
   const dispatch = useDispatch()
   const logoutHandler = (e) => {
